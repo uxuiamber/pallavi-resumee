@@ -12,58 +12,57 @@
     font-size: 100px;
   }
   .me-ed{
-    font-size: 60px;
-  }
-  .intro{
     font-size: 32px;
   }
-  .about-img{
-    padding: 120px;
+  .intro{
+    font-size: 50px;
   }
-  .about-imgg{
-    padding: 50px 120px;
-  }
+
   img{
-    max-width: 1300px;
+    max-width: 100%;
   }
+ .dropdown-item:hover{
+   color: #222 !important;
+ }
+
+ .navbar-toggler, .navbar-toggler-icon{
+   color: #fff !important;
+ }
  
-  .about{
-    display: flex;
-    margin-top: 100px;
-    justify-content:center ;
-  }
   .card-item{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 </style>
     <title>pallavi</title>
 </head>
 <body>
     <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#sec-1">Pallavi Umar</a>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+              <a class="navbar-brand text-white" href="#sec-1"><b>Pallavi Umar</b></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon "></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#sec-2">About me</a>
+                    <a class="nav-link active  text-white" aria-current="page" href="#sec-2">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#sec-4">Education</a>
+                    <a class="nav-link  text-white" href="#sec-4">Education</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#sec-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle  text-white" href="#sec-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Skills
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#sec-3">HTML 5</a></li>
-                      <li><a class="dropdown-item" href="#sec-3">CSS</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#sec-3">JAVASCRIPT</a></li>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-white" href="#sec-3">HTML 5</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="#sec-3">CSS</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="#sec-3">JAVASCRIPT</a></li>
                     </ul>
                   </li>
                   
@@ -72,13 +71,14 @@
             </div>
           </nav>
     </section>
-    <hr>
+  
 <section id="sec-1">
-  <div class="row about-img">
+  <div class="container">
+  <div class="row  my-5">
     <div class="col"><h1 class="me">
       Pallavi Umar
     </h1></div>
-    <div class="col "><p class="intro">Seeking a challenging
+    <div class="col "><p class="me-ed">Seeking a challenging
       position in a reputed
       organization where I can
       learn new skills, expand my
@@ -89,74 +89,80 @@
       contribute to the
       organization's growth.</p></div>
   </div>
-  
+</div>
 </section>
 
 <hr>
-<section id="sec-2">
-  <div class="about"><h1 class="me">
+<section id="sec-2" >
+  <div class="container">
+  <div class="text-center my-5"><h1 class="me">
    About Me
   </h1></div>
-  <div class="about-img">
+  <div class="py-5">
     <img src="vasily-koloda-8CqDvPuo_kI-unsplash.jpg" alt="">
-    <p class="intro about-img text-center"> Have knowledge in web designing (Static ), web developing, web hosting, website design and frontend developing. Languages know: 1. Html 2.Css (and Scss) 3.Javascript.
+    <p class="me-ed my-3 text-center"> Have knowledge in web designing, web developing, web hosting, website design and frontend developing. Languages know: 1. Html 2.Css (and Scss) 3.Javascript.
     </p>
-  </div><div >
-  </div>
+  </div></div>
 </section>
 <hr>
-<section id="sec-4">
+<section id="sec-4" class="container">
+  <div class="container">
   <div class="row">
-  <h2 class="me text-center about-img"> My Education
+  <h2 class="me text-center py-5"> My Education
   </h2></div>
- <div class="row about-imgg">
+ <div class="row my-5">
     <div class="col"><h1 class="me-ed">
-      ST. NORBERT SCHOOL DHARAULI GHOSI MAU
+      High School (2014-15)
     </h1></div>
    
-      <div class="col "><p class="intro">High School (2014-15)</p></div>
+      <div class="col "><p class="intro">ST. NORBERT SCHOOL DHARAULI GHOSI MAU</p></div>
   </div>
-  <div class="row about-imgg"><div class="col "><p class="intro">Polytechnic (2015-15)</p></div>
-    <div class="col"><h1 class="me-ed">
-      GOVT. GIRLS POLYTECHNI, SHAMLI
-    </h1></div>
+  
+  <div class="row py-5">
+    <div class="col ">
+     <h1 class="me-ed">Polytechnic (2015-15)</h1>
+    </div>
+    <div class="col">
+       <p class="intro">GOVT. GIRLS POLYTECHNI, SHAMLI</p>
+    </div>
    
       
   </div>
-  <div class="row about-imgg">
+  
+  <div class="row my-5">
     <div class="col"><h1 class="me-ed">
-      RAJKIYA ENGINEERING COLLEGE, KANNAUJ
+      Btech (2018-21)
     </h1></div>
    
-      <div class="col "><p class="intro">Btech (2018-21)</p></div>
+      <div class="col "><p class="intro">RAJKIYA ENGINEERING COLLEGE, KANNAUJ</p></div>
   </div>
-    
+</div>
 </section>
+<hr>
 
-
-<section id="sec-3"> <div class="row">
-  <h2 class="me text-center about-img"> My Skills
+<section id="sec-3" >
+  <div class="container">
+    <div class="row justify-center">
+  <h2 class="me text-center my-5"> My Skills
   </h2></div>
-<div class="row about-imgg card-item">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-center">
-      <h5 class="card-title">HTML 70%</h5>
+<div class="row py-5 card-item">
+  <div class="card mx-5 bg-dark" style="width: 18rem;">
+    <div class="card-body text-center ">
+      <h5 class="card-title text-white">HTML 70%</h5>
+    </div>
+  </div>
+  <div class="card mx-5 bg-dark" style="width: 18rem;">
+    <div class="card-body text-center ">
+      <h5 class="card-title text-white">CSS 50%</h5>
      
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-center">
-      <h5 class="card-title">CSS 50%</h5>
-     
+  <div class="card mx-5 bg-dark" style="width: 18rem;">
+    <div class="card-body text-center ">
+      <h5 class="card-title text-white">JAVASCRIPT 40%</h5>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-center">
-      <h5 class="card-title">JAVASCRIPT 40%</h5>
-      
-    </div>
-  </div>
-</div></section>
+</div></div> </section>
      <!-- Option 1: Bootstrap Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
